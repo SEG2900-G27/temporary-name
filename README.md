@@ -1,2 +1,4 @@
 # temporary-name
-SEG2900 Fall 2021 Website for (TBD) product
+We are (Team Name) and this is our product, (Product Name)
+
+Our product is...
