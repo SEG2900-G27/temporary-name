@@ -5,4 +5,4 @@ Our product consists of a service to reduce food waste from restaurants and othe
 
 Please consider supporting our project by visiting [our website!](https://second-chance-servings.github.io/Second-chance-servings/)
 
-Team Members: Emma Tang, Nicholas Beaulieu, Noah do Régo, Andrew Pham
+Team Members: Emma Tang, Nicholas Beaulieu, Noah do Régo, Andrew Pham, Mostafa Yassine
