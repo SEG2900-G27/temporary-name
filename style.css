@@ -25,7 +25,7 @@ body {
   color: #737373;
 }
 
-.pages-container {
+.container {
   display: flex;
   justify-content: center;
   margin: 5%;
@@ -45,4 +45,16 @@ body {
 
 .page-box > h2 {
   color: #687339;
+}
+
+.scroll-button {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+
+  background: #ffffff;
+  border: 5px solid #a1d3ac;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transform: translate(-70%, -10%);
 }
