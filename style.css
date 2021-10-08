@@ -4,20 +4,21 @@
 html,
 body {
   max-width: 100%;
-  overflow-x: visible;
   scroll-behavior: smooth;
-}
-
-body {
   font-family: "Montserrat", sans-serif;
   background: #fafded;
   margin: 0px;
   height: 100%;
 }
 
+section {
+  min-height: 100vh;
+  width: 100%;
+}
+
 .title-image > img {
   width: 100%;
-  max-height: 400px;
+  max-height: 30vh;
   overflow-y: hidden;
 }
 
@@ -50,12 +51,34 @@ body {
 
 .scroll-button {
   position: absolute;
-  width: 20%;
-  height: 15%;
-
-  background: #ffffff;
-  border: 5px solid #a1d3ac;
-  box-sizing: border-box;
-  border-radius: 10px;
-  transform: translate(-70%, -10%);
+  transform: translate(0%, 80%);
+  animation: scrolldown-button 2s ease-in-out infinite;
 }
+
+/*Fading slide down animation*/
+@keyframes scrolldown-button {
+  0% {
+    transform: translate(0, 60%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px, 90%);
+    opacity: 0;
+  }
+}
+
+/*Up and down animation*/
+/* @keyframes scrolldown-button {
+  0% {
+    transform: translateY(60%);
+  }
+  50% {
+    transform: translateY(90%);
+  }
+  100% {
+    transform: translateY(60%);
+  }
+} */
