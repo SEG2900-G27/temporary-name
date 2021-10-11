@@ -55,11 +55,24 @@ section {
   animation: scrolldown-button 2s ease-in-out infinite;
 }
 
+.section-box {
+  background: #e7eec7;
+  width: 90%;
+  box-shadow: 7px 7px 15px 0px #00000040;
+  padding: 10%;
+}
+
 .left-image {
+  position: relative;
+  float: left;
   width: 50%;
-  max-height: 200vh;
-  padding: 2%;
-  margin-right: 55%;
+  max-height: 300vh;
+  right: 10%;
+}
+
+.right-text {
+  text-align: justify;
+  width: 100%;
 }
 
 /*Fading slide down animation*/
