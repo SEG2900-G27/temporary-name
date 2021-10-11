@@ -55,6 +55,13 @@ section {
   animation: scrolldown-button 2s ease-in-out infinite;
 }
 
+.left-image {
+  width: 50%;
+  max-height: 200vh;
+  padding: 2%;
+  margin-right: 55%;
+}
+
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
   0% {
