@@ -7,7 +7,7 @@ Our product consists of a service to reduce food waste from restaurants and othe
 Please consider supporting our project by visiting [our website!](https://second-chance-servings.github.io/)
 
 ## Team Members 
-- Emma Tang
+- Emma Tang ~ Student # 300231965
 - Nicholas Beaulieu
 - Noah do Régo ~ Student # 300234846
 - Andrew Pham
