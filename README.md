@@ -9,7 +9,7 @@ Please consider supporting our project by visiting [our website!](https://second
 ## Team Members 
 - Emma Tang
 - Nicholas Beaulieu
-- Noah do Régo
+- Noah do Régo ~ Student # 300234846
 - Andrew Pham
 - Mostafa Yassine
 - Viet Tien
