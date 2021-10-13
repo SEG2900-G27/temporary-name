@@ -11,5 +11,5 @@ Please consider supporting our project by visiting [our website!](https://second
 - Nicholas Beaulieu
 - Noah do Régo ~ Student # 300234846
 - Andrew Pham
-- Mostafa Yassine
+- Mostafa Yassine ~ Student # 300233320
 - Viet Tien
