@@ -94,6 +94,14 @@ section {
   text-align: justify;
   width: 100%;
 }
+.icon {
+  width: 2%;
+}
+.list_icon {
+  list-style: none;
+}
+.card {
+}
 
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
