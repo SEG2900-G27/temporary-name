@@ -94,6 +94,18 @@ section {
   text-align: justify;
   width: 100%;
 }
+.icon {
+  width: 2%;
+}
+.list_icon {
+  list-style: none;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  font-size: xx-large;
+}
 
 div.right {
   position: relative;
