@@ -95,6 +95,11 @@ section {
   width: 100%;
 }
 
+div.right {
+  position: relative;
+  left: 0px;
+}
+
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
   0% {
