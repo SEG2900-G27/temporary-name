@@ -100,7 +100,11 @@ section {
 .list_icon {
   list-style: none;
 }
-.card {
+
+.text {
+  text-align: center;
+  width: 100%;
+  font-size: xx-large;
 }
 
 /*Fading slide down animation*/
