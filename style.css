@@ -124,6 +124,31 @@ div.right {
   padding: 2%;
 }
 
+/*Circle for Stats*/
+.circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: #3B3F20;
+    padding: 2%;
+    display: inline-block;
+}
+
+.left-stat {
+    position: relative;
+    right: 5%;
+}
+
+.right-stat {
+    display: inline-block;
+    left: 5%;
+    color: #3B3F20;
+}
+
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
   0% {
