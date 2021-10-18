@@ -114,6 +114,15 @@ div.right {
   text-align: justify;
 }
 
+.our-vision-image {
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 350px;
+  height: 525px;
+  border-right: 4px #4d4d4d;
+}
+
 .features-box {
   background: #e7eec7;
   width: 33%;
