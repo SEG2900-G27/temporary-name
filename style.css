@@ -35,6 +35,16 @@ section {
   color: #3b3f20;
 }
 
+.subtitle-text {
+  line-height: 500%;
+  background: #e7eec7;
+  color: #3b3f20;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 1000;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -94,6 +104,68 @@ section {
   text-align: justify;
   width: 100%;
 }
+.icon {
+  width: 2%;
+}
+.list_icon {
+  list-style: none;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  font-size: xx-large;
+}
+
+div.right {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  text-align: justify;
+}
+
+.our-vision-image {
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 350px;
+  height: 525px;
+  border-right: 4px #4d4d4d;
+}
+
+.features-box {
+  background: #e7eec7;
+  width: 33%;
+  border: 5px solid #687339;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px 0px #00000040;
+  margin: 0% 5% 5% 5%;
+  padding: 2%;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background: #3B3F20;
+    padding: 2%;
+    display: inline-block;
+}
+
+.left-stat {
+    position: relative;
+    right: 5%;
+}
+
+.right-stat {
+    display: inline-block;
+    left: 5%;
+    color: #3B3F20;
+}
 
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
@@ -108,6 +180,16 @@ section {
     transform: translate(0px, 90%);
     opacity: 0;
   }
+}
+
+/*Twitter stuff*/
+.twitter-box {
+  background: #e7eec7;
+  width: 30%;
+  border: 5px solid #687339;
+  border-radius: 12px;
+  box-shadow: 7px 7px 15px 0px #00000040;
+  margin: 0% 5% 5% 5%;
 }
 
 /*Up and down animation*/
