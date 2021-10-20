@@ -18,6 +18,35 @@ section {
   align-content: center;
 }
 
+.navbar {
+  display: inline;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 9999;
+  height: 8%;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.navbar li {
+  float: left;
+  display: list-item;
+  height: 100%;
+  text-align: center;
+  width: 20%;
+  vertical-align: center;
+}
+
 .title-image {
   width: 100%;
   height: 40vh;
@@ -144,27 +173,27 @@ div.right {
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    border-radius: 50%;
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    background: #3B3F20;
-    padding: 2%;
-    display: inline-block;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  background: #3b3f20;
+  padding: 2%;
+  display: inline-block;
 }
 
 .left-stat {
-    position: relative;
-    right: 5%;
+  position: relative;
+  right: 5%;
 }
 
 .right-stat {
-    display: inline-block;
-    left: 5%;
-    color: #3B3F20;
+  display: inline-block;
+  left: 5%;
+  color: #3b3f20;
 }
 
 /*Fading slide down animation*/
