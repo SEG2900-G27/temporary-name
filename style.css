@@ -19,7 +19,7 @@ section {
 }
 
 .navbar {
-  display: inline;
+  display: table;
   position: fixed;
   background-color: white;
   width: 100%;
@@ -32,19 +32,24 @@ section {
   justify-content: center;
   align-content: center;
   list-style: none;
+  height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  height: 100%;
 }
 
 .navbar li {
   float: left;
-  display: list-item;
-  height: 100%;
+  display: table;
   text-align: center;
   width: 20%;
-  vertical-align: center;
+  height: 100%;
+}
+
+.navbar li a {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
 }
 
 .title-image {
