@@ -183,7 +183,7 @@ div.right {
   height: 200px;
   line-height: 200px;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 80px;
   color: #fff;
   text-align: center;
   background: #3b3f20;
@@ -200,6 +200,11 @@ div.right {
   display: inline-block;
   left: 5%;
   color: #3b3f20;
+}
+
+div.stat {
+    position: relative;
+    text-align: justify;
 }
 
 /*Fading slide down animation*/
