@@ -1,4 +1,35 @@
 SCS Branding and Style
 ======================
 
-The brand of Second Chance Servings (SCS) will be clean
+The brand of Second Chance Servings (SCS) will be clean and modern. We
+will use rounded corners and light borders for a softer look.
+
+Colours
+=======
+Our colours are natural and visually appealing. 
+
+Main colour swatches:
+
+#e7eec7
+#3b3f20
+#687339
+
+Shades of green are use for a calm, eco-centered feel.
+
+Some secondary colours will also be added in different areas.
+
+Iconography
+===========
+We will use minimalist, black-outlined icons.
+
+Typography
+==========
+We will use the Montserrat font from Google Fonts.
+
+Links
+=====
+Links will be italisized and a different shade of colour.
+
+Buttons
+=======
+Buttons will be rounded, colour-filled rectangles with light borders.
