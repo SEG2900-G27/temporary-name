@@ -50,6 +50,11 @@ section {
   display: table-cell;
   vertical-align: middle;
   margin: auto;
+  text-decoration: none;
+  color: inherit;
+}
+.navbar li:hover {
+  background-color: #e7eec7;
 }
 
 .title-image {
@@ -68,6 +73,7 @@ section {
   font-style: normal;
   font-weight: 1000;
   color: #3b3f20;
+  padding-top: 10%;
 }
 
 .subtitle-text {
@@ -165,6 +171,7 @@ div.right {
   align-items: center;
   padding: 5%;
   box-shadow: none;
+  font-size: 130%;
 }
 
 #our-service1 {
