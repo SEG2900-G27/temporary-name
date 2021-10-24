@@ -158,6 +158,23 @@ div.right {
   text-align: justify;
 }
 
+#our-service .section-box {
+  display: flex;
+  max-height: 30%;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  box-shadow: none;
+}
+
+#our-service1 {
+  background: #a1d3ac;
+}
+
+#our-service2 {
+  background: #99b091;
+}
+
 #flex {
   display: flex;
   align-items: center;
@@ -226,8 +243,8 @@ div.right {
 }
 
 div.stat {
-    position: relative;
-    text-align: justify;
+  position: relative;
+  text-align: justify;
 }
 
 /*Fading slide down animation*/
