@@ -14,9 +14,11 @@ Main colour swatches:
 #3b3f20
 #687339
 
-Shades of green are use for a calm, eco-centered feel.
+Shades of green are use for a calm, eco-centered, health conscious feel.
 
-Some secondary colours will also be added in different areas.
+Some secondary colours will also be added in different areas as accents.
+
+#d45464
 
 Iconography
 ===========
