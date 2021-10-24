@@ -154,9 +154,33 @@ section {
 
 div.right {
   position: relative;
-  left: 25%;
-  width: 50%;
+  left: 10vw;
   text-align: justify;
+}
+
+#flex {
+  display: flex;
+  align-items: center;
+}
+
+.steps-list {
+  list-style-type: none;
+  width: 50vw;
+}
+
+.steps-list-item {
+  padding: 10px;
+  overflow: auto;
+}
+
+.steps-list-item h3 {
+  margin: 0%;
+}
+
+.steps-list-item img {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 80px;
 }
 
 .our-vision-image {
@@ -165,7 +189,6 @@ div.right {
   left: 10%;
   width: 350px;
   height: 525px;
-  border-right: 4px #4d4d4d;
 }
 
 .features-box {
