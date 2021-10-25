@@ -471,15 +471,40 @@
         </p>
       </div>
       <div class="container">
-        <div class="page-box">
+        <button class="donate-button" onclick="openDonation()">
           <div class="text">
-            <a href="#"> Press here to donate </a>
-            <p>
-              Progess on our goal:<br />
-              *insert progress bar*
-            </p>
+            Donate Here
           </div>
-        </div>
+        </button>
+      </div>
+      <div class="text">
+        <p id="donation-progress">
+        </p>
+      </div>
+      <div class="form-popup" id="donationForm">
+        <form class="form-container">
+          <h1>
+            Thank you for donating
+          </h1>
+          <label>
+            <b>
+              Your full name
+            </b>
+          </label>
+          <input id="user-name" type="text" placeholder="Ex: Casey Li">
+          <label>
+            <b>
+              How much would you like to donate?
+            </b>
+          </label>
+          <input id="donation-amount" type="text" placeholder="0.00">
+          <button type="button" class="btn" onclick="submitDonation()">
+            Donate
+          </button>
+          <button type="button" class="btn cancel" onclick="closeDonation()">
+            Close
+          </button>
+        </form>
       </div>
       <div class="subtitle-text">
         <h1>Volunteer</h1>

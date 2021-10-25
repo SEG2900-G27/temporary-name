@@ -303,6 +303,67 @@ div.stat {
   margin: 0% 5% 5% 5%;
 }
 
+/*Donations*/
+.donate-button {
+  background: #e7eec7;
+  border: 5px solid #687339;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px 0px #00000040;
+  margin: 0% 5% 5% 5%;
+  padding: 2%;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.donate-button:hover {
+  opacity: 1;
+}
+
+.form-popup {
+  display: none;
+  width: 30%;
+  height: 70%;
+  margin: 5%;
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  z-index: 1;
+}
+
+.form-container {
+  background: #e7eec7;
+  border: 5px solid #687339;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px 0px #00000040;
+  padding: 2%;
+}
+
+.form-container input[type=text] {
+  width: 95%;
+  padding: 2%;
+  margin: 5px 0 22px 0;
+  border: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 99%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover {
+  opacity: 1;
+}
+
 /*Up and down animation*/
 /* @keyframes scrolldown-button {
   0% {

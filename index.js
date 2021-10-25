@@ -37,3 +37,25 @@ const observer = new IntersectionObserver(function(entries, observer){
 sliders.forEach(slider => {
   observer.observe(slider, options);
 })
+
+/*Donations*/
+var money = 10685
+
+window.onload = function() {
+    document.getElementById("donation-progress").innerHTML = "Donations received so far: " + money + "$"
+}
+
+function openDonation() {
+    document.getElementById("donationForm").style.display = "block";
+}
+
+function submitDonation() {
+    money += Number(document.getElementById("donation-amount").value);
+    document.getElementById("donation-progress").innerHTML = "Donations received so far: " + money + "$"
+    document.getElementById("donationForm").style.display = "none";
+
+}
+
+function closeDonation() {
+    document.getElementById("donationForm").style.display = "none";
+}
