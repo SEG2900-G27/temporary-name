@@ -16,6 +16,7 @@ section {
   width: 100%;
   justify-content: center;
   align-content: center;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -180,6 +181,29 @@ div.right {
 
 #our-service2 {
   background: #99b091;
+}
+
+.from-right {
+  transform: translateX(70%);
+}
+
+.from-left {
+  transform: translateX(-70%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 400ms ease-in, -webkit-transform 800ms ease-in;
+  transition: opacity 400ms ease-in, transform 800ms ease-in;
+  transition: opacity 400ms ease-in, transform 800ms ease-in,
+    -webkit-transform 800ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0%);
+  opacity: 1;
 }
 
 #flex {
