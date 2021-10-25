@@ -19,6 +19,10 @@ Shades of green are use for a calm, eco-centered, health conscious feel.
 Some secondary colours will also be added in different areas as accents.
 
 #d45464
+#007242
+#abe098
+#9dc183
+#7d9a68
 
 Iconography
 ===========
