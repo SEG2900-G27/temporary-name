@@ -59,3 +59,78 @@ function submitDonation() {
 function closeDonation() {
     document.getElementById("donationForm").style.display = "none";
 }
+
+/*Contact Us Stuff*/
+
+const form = document.querySelector("form");
+const thankYou = document.querySelector(".thank-you");
+const nameInput = document.querySelector(
+  'input[name="name"]'
+);
+const emailInput = document.querySelector(
+  'input[name="email"]'
+);
+const phoneInput = document.querySelector(
+  'input[name="phone"]'
+);
+const messageInput = document.querySelector(
+  'textarea[name="message"]'
+);
+
+const inputs = [nameInput, emailInput, phoneInput, messageInput];
+
+let isFormValid = false;
+let isValidationOn = false;
+
+const resetElm = (elm) => {
+  elm.classList.remove("invalid");
+  elm.nextElementSibling.classList.add("hidden");
+};
+
+const invalidateElm = (elm) => {
+  elm.classList.add("invalid");
+  elm.nextElementSibling.classList.remove("hidden");
+}
+
+const validateInputs = () => {
+  if (!isValidationOn) return;
+
+  isFormValid = true;
+  inputs.forEach(resetElm);
+
+  if (!nameInput.value){
+    isFormValid = false;
+    invalidateElm(nameInput)
+  }
+
+  if(!emailInput.value){
+    isFormValid = false;
+    invalidateElm(emailInput)
+  }
+
+  if(!phoneInput.value){
+    isFormValid = false;
+    invalidateElm(phoneInput)
+  }
+
+  if(!messageInput.value){
+    isFormValid = false;
+    invalidateElm(messageInput)
+  }
+};
+
+form.addEventListener("submit", (e)=> {
+  e.preventDefault();
+  isValidationOn = true;
+  validateInputs();
+  if (isFormValid){
+    form.remove();
+    thankYou.classList.remove("hidden");
+  }
+});
+
+inputs.forEach((input) => {
+  input.addEventListener("input", () => {
+    validateInputs();
+  });
+});
