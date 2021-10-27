@@ -282,7 +282,78 @@ div.stat {
   position: relative;
   text-align: justify;
 }
+.our-team-title {
+  grid-column: 1 /-1;
+}
+.our-team-container p{
+  color: white;
+}
+.our-team-container h3{
+  color: white;
+}
+.our-team-container {
+  position: relative;
+  min-height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+  /* justify-items: center;
+  align-items: center; */
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 350px);
 
+  column-gap: 30px;
+  row-gap: 60px;
+}
+.card {
+  position: relative;
+  transition: 0.5s;
+  box-shadow: 7px 7px 15px 0px #00000040;
+  background: black;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 20px 2px rgba(0, 0, 0, 0.05);
+}
+.our-team-container .card .img-box {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.img-box img{
+  width: 100%;
+  height: 100%";
+}
+.our-team-container .card:hover .img-box {
+  opacity: 0.5;
+}
+
+
+.hi {
+  font-size: 35px;
+}
+.contentbox {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  bottom: -100%;
+  text-align: center;
+  margin: 0;
+  transition: 0.5s;
+}
+.card:hover .contentbox{
+  bottom:0
+}
+.card .contentbox {
+  background: linear-gradient(0deg, #e0e021, transparent);
+}
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
   0% {
@@ -343,7 +414,7 @@ div.stat {
   padding: 2%;
 }
 
-.form-container input[type=text] {
+.form-container input[type="text"] {
   width: 95%;
   padding: 2%;
   margin: 5px 0 22px 0;
@@ -351,7 +422,7 @@ div.stat {
 }
 
 .form-container .btn {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -371,19 +442,19 @@ div.stat {
 
 /*Contact Us Stuff*/
 
-.contact-us{
+.contact-us {
   background-image: linear-gradient(
     to right,
     rgb(171, 224, 152) 0%,
-    rgb(157,193,131) 75%,
-    rgb(125,154,104) 100%
+    rgb(157, 193, 131) 75%,
+    rgb(125, 154, 104) 100%
   );
   color: white;
   font-size: 20px;
   padding: 40px;
 }
 
-form{
+form {
   padding: 40px;
 }
 
@@ -391,14 +462,14 @@ form{
   margin: 20px;
 }
 
-.form-group label{
+.form-group label {
   display: block;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 .form-group input,
-textarea{
+textarea {
   width: 320px;
   padding: 10px;
   font-size: 20px;
@@ -406,20 +477,20 @@ textarea{
   margin-bottom: 4px;
 }
 
-textarea{
+textarea {
   width: 500px;
   height: 200px;
 }
 
-input.invalid{
+input.invalid {
   border: 1px solid red;
 }
 
-.error-hint{
+.error-hint {
   color: red;
 }
 
-hr{
+hr {
   height: 1px;
   background-color: rgb(0, 114, 66);
   border: none;
@@ -427,7 +498,7 @@ hr{
   margin-bottom: 30px;
 }
 
-button{
+button {
   padding: 10px;
   font-size: 24px;
   background: none;
@@ -438,7 +509,7 @@ button{
   font-size: 20px;
 }
 
-button:hover{
+button:hover {
   background-color: rgb(0, 114, 66);
   border: black;
   color: white;
