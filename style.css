@@ -284,10 +284,24 @@ div.stat {
 }
 .our-team-title {
   grid-column: 1 /-1;
+   
 }
-.our-team-container p{
+.our-team-container .our-team-title h1{
+  text-align: center;
+    
+}
+.our-team-container .card p{
   color: white;
+  margin: 0;
 }
+.our-team-container .our-team-title p{
+  text-align: right;
+  font-size: 12px;
+  position: relative;
+  color: black;
+  font-style: italic;
+}
+
 .our-team-container h3{
   color: white;
 }
@@ -301,7 +315,7 @@ div.stat {
   /* justify-items: center;
   align-items: center; */
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(3, 350px);
+  grid-template-rows:  100px 350px 350px;
 
   column-gap: 30px;
   row-gap: 60px;
@@ -331,10 +345,6 @@ div.stat {
   width: 100%;
   height: 100%";
 }
-.our-team-container .card:hover .img-box {
-  opacity: 0.5;
-}
-
 
 .hi {
   font-size: 35px;
@@ -348,12 +358,27 @@ div.stat {
   margin: 0;
   transition: 0.5s;
 }
+.our-team-container .card:hover .img-box {
+  opacity: 0.5;
+}
 .card:hover .contentbox{
   bottom:0
 }
 .card .contentbox {
   background: linear-gradient(0deg, #e0e021, transparent);
 }
+.contentbox h3{
+  font-size: 23px;
+}
+.contentbox h3 span{
+  font-size: 15px;
+}
+.contentbox a:link{
+  color: black;
+  
+}
+
+
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
   0% {
