@@ -595,6 +595,19 @@ button:hover {
   text-align: center;
 }
 
+.disclaimer {
+    background: #edf0e1;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #A4A4A4
+}
+
+.disclaimer a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
 /*Up and down animation*/
 /* @keyframes scrolldown-button {
   0% {
