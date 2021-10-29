@@ -406,6 +406,9 @@ div.stat {
 .card .contentbox {
   background: linear-gradient(0deg, #e0e021, transparent);
 }
+#greencontentbox {
+  background: linear-gradient(0deg, #1cbe37, transparent);
+}
 .contentbox h3{
   font-size: 23px;
 }
