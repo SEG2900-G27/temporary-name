@@ -282,6 +282,45 @@ div.stat {
   position: relative;
   text-align: justify;
 }
+
+.parallax1 {
+    background: linear-gradient(0deg, rgba(250, 253, 237, 0.5), rgba(250, 253, 237, 0.7)), url("https://assets.blog.hgtv.ca/wp-content/uploads/2020/08/17183824/learn-to-cook-with-parts-you-don%E2%80%99t-normally-consider-edible-ways-to-reuse-food-scraps-and-waste.jpg?width=435");
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background: linear-gradient(0deg, rgba(250, 253, 237, 0.5), rgba(250, 253, 237, 0.7)), url("https://igps.net/wp-content/uploads/2020/07/shutterstock_1465221002.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background: linear-gradient(0deg, rgba(250, 253, 237, 0.5), rgba(250, 253, 237, 0.7)), url("https://media.istockphoto.com/photos/donate-food-to-hungry-people-concept-of-poverty-and-hunger-picture-id1060352206?b=1&k=20&m=1060352206&s=170667a&w=0&h=Q-QLaV55QNyiV3o5OGlROI203b2GruSsoFlfbbex4xs=");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+
 .our-team-title {
   grid-column: 1 /-1;
    
@@ -568,3 +607,4 @@ button:hover {
     transform: translateY(60%);
   }
 } */
+
