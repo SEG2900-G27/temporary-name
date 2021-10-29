@@ -41,18 +41,32 @@ sliders.forEach(slider => {
 /*Donations*/
 var money = 10685
 
-window.onload = function() {
-    document.getElementById("donation-progress").innerHTML = "Donations received so far: " + money + "$"
-}
-
 function openDonation() {
     document.getElementById("donationForm").style.display = "block";
 }
 
 function submitDonation() {
-    money += Number(document.getElementById("donation-amount").value);
-    document.getElementById("donation-progress").innerHTML = "Donations received so far: " + money + "$"
-    document.getElementById("donationForm").style.display = "none";
+    donation = Number(document.getElementById("donation-amount").value);
+    userName = document.getElementById("user-name").value;
+    if (userName != "") {
+      if (donation > 0) {
+        money += donation
+        document.getElementById("donation-progress").innerHTML = "Progress until our next goal: " + money + "$ / 100000$";
+        document.getElementById("donation-progress-bar").value = money
+        document.getElementById("donationForm").style.display = "none";
+        document.getElementById("donation-message").innerHTML = userName + ", thank you very much for your donation!"
+        if (money > 100000) {
+          document.getElementById("donation-message").innerHTML = userName + ", thank you for helping us reach our goal!"
+        }
+      }
+      else {
+        document.getElementById("donation-amount").placeholder = "Donation amount must be number bigger than 0";
+      }
+      document.getElementById("donation-amount").value = null;
+    }
+    else {
+      document.getElementById("user-name").placeholder = "Please give us your name"
+    }
 
 }
 

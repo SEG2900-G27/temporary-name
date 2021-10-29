@@ -410,7 +410,6 @@ div.stat {
   border: 5px solid #687339;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
-  margin: 0% 5% 5% 5%;
   padding: 2%;
   cursor: pointer;
   opacity: 0.8;
@@ -418,8 +417,8 @@ div.stat {
 
 .donate-button:hover {
   opacity: 1;
-}
 
+}
 .form-popup {
   display: none;
   width: 30%;
@@ -454,7 +453,7 @@ div.stat {
   cursor: pointer;
   width: 99%;
   margin-bottom: 10px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .form-container .cancel {
@@ -465,6 +464,13 @@ div.stat {
   opacity: 1;
 }
 
+progress {
+  background: #e7eec7;
+  border: 1px solid #687339;
+  border-radius: 5px;
+  height: 45px;
+  width: 50%;
+}
 /*Contact Us Stuff*/
 
 .contact-us {
