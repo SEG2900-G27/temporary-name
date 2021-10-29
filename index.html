@@ -139,47 +139,43 @@
           </div>
       </section>
 
-      <!--Section for Our Team (Dang Viet Tien)-->
-      <section id="our-team">
-          <div class="our-team-container">
-              <div class="our-team-title">
-                  <h1>OUR TEAM PAGE</h1>
-                  <p>"We can't help everyone<br />But...<br />everyone can help someone."</p>
+    <!--Section for Our Team (Dang Viet Tien)-->
+    <section id="our-team">
+      <div class="our-team-container">
+        <div class="our-team-title" >
+          <h1 >OUR TEAM PAGE</h1>
+          <p>"We can't help everyone<br />But...<br />everyone can help someone."</p>
+        </div>
+      
+        <div class="card" >
+          <div class="content">
+            <div class="img-box">
+              <img src="resources/profile/emma.jpg" alt="photo of Emma"  />
+            </div>
+            <div class="contentbox">
+              <h3>Emma Tang<br /><span>Web Developer</span></h3>
+              <p>I've seen so much food waste working in a grocery store for over
+                2 years. SCS was created to save food and help others</p>
+              <a href="https://www.linkedin.com/in/emma-tang-a9a435221/" target="_">View linkedin profile</a>    
               </div>
-
-              <div class="card">
-                  <div class="content">
-                      <div class="img-box">
-                          <img src="resources/profile/emma.jpg" alt="photo of Emma" />
-                      </div>
-                      <div class="contentbox">
-                          <h3>Emma Tang<br /><span>Web Developer</span></h3>
-                          <p>
-                              I've seen so much food waste working in a grocery store for over
-                              2 years. SCS was created to save food and help others
-                          </p>
-                          <a href="https://www.linkedin.com/in/emma-tang-a9a435221/" target="_">View linkedin profile</a>
-                      </div>
-                  </div>
-
-              </div>
-              <!--2nd person-->
-              <div class="card">
-                  <div class="content">
-                      <div class="img-box">
-                          <img src="resources/profile/nicolas.jpg" alt="photo of Nicholas Beaulieu" />
-                      </div>
-                      <div class="contentbox">
-                          <h3>Nicholas Beaulieu<br /><span>Web Developer</span></h3>
-                          <p>
-                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                              repellendus necessitatibus inventore iusto fuga.
-                          </p>
-                          <a href="https://www.linkedin.com/in/nick-beaulieu-08b763221/" target="_">View linkedin profile</a>
-                      </div>
-                  </div>
-              </div>
-
+          </div>
+          
+        </div>
+        <!--2nd person-->
+        <div class="card">
+          <div class="content">
+            <div class="img-box">
+              <img src="resources/profile/nicolas.jpg" alt="photo of Nicholas Beaulieu"  />
+            </div>
+            <div class="contentbox">
+              <h3>Nicholas Beaulieu<br /><span>Web Developer</span></h3>
+              <p>Nobody should be forced to eat bad food, 
+                SCS plans to ensure all our costumers are satisfied with their meals</p>
+              <a href="https://www.linkedin.com/in/nick-beaulieu-08b763221/" target="_">View linkedin profile</a>
+            </div>
+          </div>
+        </div>
+      
 
 
               <!--3rd person-->
@@ -341,97 +337,97 @@
 
       </section>
 
-      <!--Section for Our Request/Donations (Nicholas Beaulieu)-->
-      <section id="our-request">
-          <div class="subtitle-text">
-              <h1>Donate</h1>
-          </div>
+    <!--Section for Our Request/Donations (Nicholas Beaulieu)-->
+    <section id="our-request">
+      <div class="subtitle-text">
+        <h1>Donate</h1>
+      </div>
+      <div class="text">
+        <p>
+          Donations of any size are very much appreciated.<br />
+          All donation money is used to fund our loved staff,<br />
+          and to open new restaurant locations.
+        </p>
+      </div>
+      <div class="container">
+        <button class="donate-button" onclick="openDonation()">
           <div class="text">
-              <p>
-                  Donations of any size are very much appreciated.<br />
-                  All donation money is used to fund our loved staff,<br />
-                  and to open new restaurant locations.
-              </p>
+            Donate Here
           </div>
-          <div class="container">
-              <button class="donate-button" onclick="openDonation()">
-                  <div class="text">
-                      Donate Here
-                  </div>
-              </button>
-          </div>
-          <div class="text">
-              <p id="donation-progress">
-                  Progress until our next goal: 10685$ / 100000$
-              </p>
-          </div>
-          <div class="container">
-              <progress id="donation-progress-bar" max="100000" value="10685">
-              </progress>
-          </div>
-          <div class="text">
-              <p id="donation-message">
-              </p>
-          </div>
-          <div class="form-popup" id="donationForm">
-              <form class="form-container">
-                  <h1>
-                      Thank you for donating
-                  </h1>
-                  <label>
-                      <b>
-                          Your full name
-                      </b>
-                  </label>
-                  <input id="user-name" type="text" placeholder="Ex: Casey Li">
-                  <label>
-                      <b>
-                          How much would you like to donate?
-                      </b>
-                  </label>
-                  <input id="donation-amount" type="text" placeholder="0.00">
-                  <button type="button" class="btn" onclick="submitDonation()">
-                      Donate
-                  </button>
-                  <button type="button" class="btn cancel" onclick="closeDonation()">
-                      Close
-                  </button>
-              </form>
-          </div>
-          <div class="subtitle-text">
-              <h1>Volunteer</h1>
-          </div>
-          <div class="text">
-              <p>
-                  Volunteers will be expected to some of the following:<br />
-                  delivering ressources to our locations,<br />
-                  helping to prepare meals in the restaurants,<br />
-                  advertising and promoting our company,<br />
-                  serving our customers...
-              </p>
-          </div>
-          <p>
-              To become a volunteer you may contact us here:<br />
-              Email: Volunteering@SecondCServings.com<br />
-              Phone: (###) ###-####<br />
-              Or in person at any of our locations
-          </p>
-          <div class="subtitle-text">
-              <h1>Become a sponsor</h1>
-          </div>
-          <div class="text">
-              <p>
-                  Our sponsors may support us by:<br />
-                  providing us with cooking ingredients and/or food of any kind,<br />
-                  funding our projects,<br />
-                  ...
-              </p>
-          </div>
-          <p>
-              To become a sponsor for our company you may contact us here:<br />
-              Email: Sponsorship@SecondCServings.com Phone: (###) ###-####
-          </p>
-      </section>
+        </button>
+      </div>
+      <div class="text">
+        <p id="donation-progress">
+          Progress until our next goal: 10685$ / 100000$
+        </p>
+      </div>
+      <div class="container">
+        <progress id="donation-progress-bar" max="100000" value="10685">
+        </progress>
+      </div>
+      <div class="text">
+        <p id="donation-message">
+        </p>
+      </div>
+      <div class="form-popup" id="donationForm">
+        <form class="form-container">
+          <h1>
+            Thank you for donating
+          </h1>
+          <label>
+            <b>
+              Your full name
+            </b>
+          </label>
+          <input id="user-name" type="text" placeholder="Ex: Casey Li">
+          <label>
+            <b>
+              How much would you like to donate?
+            </b>
+          </label>
+          <input id="donation-amount" type="text" placeholder="0.00">
+          <button type="button" class="btn" onclick="submitDonation()">
+            Donate
+          </button>
+          <button type="button" class="btn cancel" onclick="closeDonation()">
+            Close
+          </button>
+        </form>
+      </div>
+      <div class="subtitle-text">
+        <h1>Volunteer</h1>
+      </div>
+      <div class="text">
+        <p>
+          Volunteers will be expected to some of the following:<br />
+          delivering ressources to our locations,<br />
+          helping to prepare meals in the restaurants,<br />
+          advertising and promoting our company,<br />
+          serving our customers...
+        </p>
+      </div>
+      <p>
+        To become a volunteer you may contact us here:<br />
+        Email: Volunteering@SecondCServings.com<br />
+        Phone: (###) ###-####<br />
+        Or in person at any of our locations
+      </p>
+      <div class="subtitle-text">
+        <h1>Become a sponsor</h1>
+      </div>
+      <div class="text">
+        <p>
+          Our sponsors may support us by:<br />
+          providing us with cooking ingredients and/or food of any kind,<br />
+          funding our projects,<br />
+          ...
+        </p>
+      </div>
+      <p>
+        To become a sponsor for our company you may contact us here:<br />
+        Email: Sponsorship@SecondCServings.com Phone: (###) ###-####
+      </p>
+    </section>
 
       <!--Section for Live Updates (Mostafa Yassine)-->
       <section id="pricing-socials">
@@ -513,8 +509,8 @@
 
                   <hr />
 
-                  <button>Submit Message</button>
-              </form>
+          <button>Submit Message</button>
+        </form>
 
               <div class="thank-you hidden">
                   Thank You for Your Message! We will get back to you as soon as possible.
