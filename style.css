@@ -598,6 +598,10 @@ textarea {
   margin-bottom: 4px;
 }
 
+.form-group-img {
+    display: inline-block;
+}
+
 textarea {
   width: 500px;
   height: 200px;
