@@ -11,6 +11,6 @@ Please consider supporting our project by visiting [our website!](https://second
 - Emma Tang ~ Student # 300231965
 - Nicholas Beaulieu ~ Student # 300234643
 - Noah do Régo ~ Student # 300234846
-- Andrew Pham
+- Andrew Pham ~ Student # 300226985
 - Mostafa Yassine ~ Student # 300233320
 - Viet Tien ~ Student # 300229069
