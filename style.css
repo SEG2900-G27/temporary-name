@@ -268,8 +268,13 @@ div.right {
   padding: 2%;
 }
 
-.features-box-live:hover{
-  background: linear-gradient(0deg, rgba(250, 253, 237, 0.8), rgba(250, 253, 237, 1)), url('https://images.unsplash.com/photo-1584839401450-accbe1a8ef7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80');
+.features-box-live:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.8),
+      rgba(250, 253, 237, 1)
+    ),
+    url("https://images.unsplash.com/photo-1584839401450-accbe1a8ef7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80");
 }
 
 .features-box-stats {
@@ -283,8 +288,13 @@ div.right {
   padding: 2%;
 }
 
-.features-box-stats:hover{
-  background: linear-gradient(0deg, rgba(250, 253, 237, 0.8), rgba(250, 253, 237, 1)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80');
+.features-box-stats:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.8),
+      rgba(250, 253, 237, 1)
+    ),
+    url("https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80");
 }
 
 .features-box-incentives {
@@ -298,8 +308,13 @@ div.right {
   padding: 2%;
 }
 
-.features-box-incentives:hover{
-  background: linear-gradient(0deg, rgba(250, 253, 237, 0.8), rgba(250, 253, 237, 1)), url('https://images.unsplash.com/photo-1582091652153-eb8f55ff7cd9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80');
+.features-box-incentives:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.8),
+      rgba(250, 253, 237, 1)
+    ),
+    url("https://images.unsplash.com/photo-1582091652153-eb8f55ff7cd9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80");
 }
 
 .circle {
@@ -332,56 +347,69 @@ div.stat {
 }
 
 .parallax1 {
-    background: linear-gradient(0deg, rgba(250, 253, 237, 0.5), rgba(250, 253, 237, 0.7)), url("https://assets.blog.hgtv.ca/wp-content/uploads/2020/08/17183824/learn-to-cook-with-parts-you-don%E2%80%99t-normally-consider-edible-ways-to-reuse-food-scraps-and-waste.jpg?width=435");
-    min-height: 150px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://assets.blog.hgtv.ca/wp-content/uploads/2020/08/17183824/learn-to-cook-with-parts-you-don%E2%80%99t-normally-consider-edible-ways-to-reuse-food-scraps-and-waste.jpg?width=435");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax2 {
-    background: linear-gradient(0deg, rgba(250, 253, 237, 0.5), rgba(250, 253, 237, 0.7)), url("https://igps.net/wp-content/uploads/2020/07/shutterstock_1465221002.jpg");
-    min-height: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://igps.net/wp-content/uploads/2020/07/shutterstock_1465221002.jpg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax3 {
-    background: linear-gradient(0deg, rgba(250, 253, 237, 0.5), rgba(250, 253, 237, 0.7)), url("https://media.istockphoto.com/photos/donate-food-to-hungry-people-concept-of-poverty-and-hunger-picture-id1060352206?b=1&k=20&m=1060352206&s=170667a&w=0&h=Q-QLaV55QNyiV3o5OGlROI203b2GruSsoFlfbbex4xs=");
-    min-height: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://media.istockphoto.com/photos/donate-food-to-hungry-people-concept-of-poverty-and-hunger-picture-id1060352206?b=1&k=20&m=1060352206&s=170667a&w=0&h=Q-QLaV55QNyiV3o5OGlROI203b2GruSsoFlfbbex4xs=");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-learn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-    text-align: center;
-    max-width: 100%;
-    position: relative;
-    padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+  padding: 80px 0;
 }
 
 .our-team-title {
   grid-column: 1 /-1;
-   
 }
-.our-team-container .our-team-title h1{
+.our-team-container .our-team-title h1 {
   text-align: center;
-    
 }
-.our-team-container .card p{
+.our-team-container .card p {
   color: white;
   margin: 0;
 }
-.our-team-container .our-team-title p{
+.our-team-container .our-team-title p {
   text-align: right;
   font-size: 12px;
   position: relative;
@@ -389,7 +417,7 @@ div.stat {
   font-style: italic;
 }
 
-.our-team-container h3{
+.our-team-container h3 {
   color: white;
 }
 .our-team-container {
@@ -402,7 +430,7 @@ div.stat {
   /* justify-items: center;
   align-items: center; */
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows:  100px 350px 350px;
+  grid-template-rows: 100px 350px 350px;
 
   column-gap: 30px;
   row-gap: 60px;
@@ -420,7 +448,6 @@ div.stat {
   box-shadow: 0 20px 2px rgba(0, 0, 0, 0.05);
 }
 .our-team-container .card .img-box {
- 
   position: absolute;
   top: 0;
   left: 0;
@@ -428,8 +455,12 @@ div.stat {
   height: 100%;
   transition: 0.5s;
 }
-.img-box img{
-  width: 100%;
+.img-box {
+  align-content: center;
+  justify-content: center;
+}
+.img-box img {
+  width: auto;
   height: 100%;
 }
 
@@ -448,8 +479,8 @@ div.stat {
 .our-team-container .card:hover .img-box {
   opacity: 0.5;
 }
-.card:hover .contentbox{
-  bottom:0
+.card:hover .contentbox {
+  bottom: 0;
 }
 .card .contentbox {
   background: linear-gradient(0deg, #e0e021, transparent);
@@ -457,17 +488,15 @@ div.stat {
 #greencontentbox {
   background: linear-gradient(0deg, #1cbe37, transparent);
 }
-.contentbox h3{
+.contentbox h3 {
   font-size: 23px;
 }
-.contentbox h3 span{
+.contentbox h3 span {
   font-size: 15px;
 }
-.contentbox a:link{
+.contentbox a:link {
   color: black;
-  
 }
-
 
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
@@ -507,7 +536,6 @@ div.stat {
 
 .donate-button:hover {
   opacity: 1;
-
 }
 .form-popup {
   display: none;
@@ -599,7 +627,7 @@ textarea {
 }
 
 .form-group-img {
-    display: inline-block;
+  display: inline-block;
 }
 
 textarea {
@@ -651,16 +679,16 @@ hr {
 }
 
 .disclaimer {
-    background: #edf0e1;
-    padding: 10px;
-    font-size: 15px;
-    text-align: center;
-    color: #A4A4A4
+  background: #edf0e1;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #a4a4a4;
 }
 
 .disclaimer a:link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 /*Up and down animation*/
@@ -675,4 +703,3 @@ hr {
     transform: translateY(60%);
   }
 } */
-
