@@ -695,6 +695,10 @@ hr {
   color: inherit;
 }
 
+.contact-form > button {
+  margin-left: 20px;
+}
+
 /*Up and down animation*/
 /* @keyframes scrolldown-button {
   0% {
