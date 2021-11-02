@@ -60,12 +60,16 @@ section {
 
 .title-image {
   width: 100%;
-  height: 40vh;
+  height: 100vh;
   overflow-y: hidden;
-  background-image: url(resources/crop2.jpg);
-  background-repeat: no-repeat;
+  background: url(resources/crop2.jpg);
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 
 .title-text {
