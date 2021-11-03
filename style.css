@@ -185,7 +185,7 @@ div.right {
 
 #our-service .section-box {
   display: flex;
-  max-height: 30%;
+  max-height: 20vh;
   justify-content: center;
   align-items: center;
   padding: 5%;
