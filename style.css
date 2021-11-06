@@ -1,5 +1,5 @@
 /*Imported the Montserrat font used in the figma mockup*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 html,
 body {
@@ -79,6 +79,10 @@ section {
   font-weight: 1000;
   color: #3b3f20;
   padding-top: 10%;
+}
+#title-our-vision {
+  margin-top: 50px;
+  text-decoration: underline;
 }
 
 .subtitle-text {
@@ -402,6 +406,7 @@ div.stat {
   position: relative;
   padding: 80px 0;
 }
+/* Our team  */
 
 .our-team-title {
   grid-column: 1 /-1;
@@ -413,7 +418,7 @@ div.stat {
   color: white;
   margin: 0;
 }
-.our-team-container .our-team-title p {
+.our-team-container .our-team-title blockquote {
   text-align: right;
   font-size: 12px;
   position: relative;
@@ -498,10 +503,17 @@ div.stat {
 .contentbox h3 span {
   font-size: 15px;
 }
-.contentbox a:link {
-  color: black;
+
+.contentbox a:hover {
+  font-style: italic;
+  font-weight: bold;
 }
 
+.contentbox a {
+  color: black;
+
+  font-size: 15px;
+}
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
   0% {
