@@ -9,6 +9,7 @@ body {
   background: #fafded;
   margin: 0px;
   height: 100%;
+  color: ;
 }
 
 section {
@@ -424,6 +425,7 @@ div.stat {
   position: relative;
   color: black;
   font-style: italic;
+  margin: 0;
 }
 
 .our-team-container h3 {
@@ -473,9 +475,6 @@ div.stat {
   height: 100%;
 }
 
-.hi {
-  font-size: 35px;
-}
 .contentbox {
   position: absolute;
   width: 100%;
@@ -499,20 +498,26 @@ div.stat {
 }
 .contentbox h3 {
   font-size: 23px;
+  letter-spacing: 0.5px;
 }
 .contentbox h3 span {
   font-size: 15px;
 }
-
-.contentbox a:hover {
+.contentbox a:link,
+.contentbox a:visited {
+  color: #fff;
   font-style: italic;
-  font-weight: bold;
+  font-size: 14px;
+}
+.contentbox a:hover,
+.contentbox a:active{
+  color: #ffec99;
+}
+#greencontentbox a:hover,
+#greencontentbox a:active{
+  color: #20c997;
 }
 
-.contentbox a {
-  color: black;
-
-  font-size: 15px;
 }
 /*Fading slide down animation*/
 @keyframes scrolldown-button {
