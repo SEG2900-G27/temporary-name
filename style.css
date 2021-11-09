@@ -1,5 +1,5 @@
 /*Imported the Montserrat font used in the figma mockup*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 html,
 body {
@@ -430,6 +430,7 @@ div.stat {
 
 .our-team-container h3 {
   color: white;
+  font-weight: 500;
 }
 .our-team-container {
   position: relative;
@@ -449,14 +450,14 @@ div.stat {
 .card {
   position: relative;
   transition: 0.5s;
-  box-shadow: 7px 7px 15px 0px #00000040;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.25) ;
   background: black;
   overflow: hidden;
 }
 
 .card:hover {
   transform: translateY(-20px);
-  box-shadow: 0 20px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
 }
 .our-team-container .card .img-box {
   position: absolute;
@@ -499,10 +500,13 @@ div.stat {
 .contentbox h3 {
   font-size: 23px;
   letter-spacing: 0.5px;
+  font-weight: 600;
 }
 .contentbox h3 span {
   font-size: 15px;
+  font-style: italic;
 }
+
 .contentbox a:link,
 .contentbox a:visited {
   color: #fff;
@@ -512,6 +516,7 @@ div.stat {
 .contentbox a:hover,
 .contentbox a:active{
   color: #ffec99;
+  
 }
 #greencontentbox a:hover,
 #greencontentbox a:active{
