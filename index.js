@@ -20,7 +20,7 @@ function clickHandler(e) {
 
 const options = {
   threshold: 0,
-  rootMargin: '-10% 0px -10% 0%'
+  rootMargin: ' -30% 0px -10% 0%'
 };
 
 const observer = new IntersectionObserver(function(entries, observer){
