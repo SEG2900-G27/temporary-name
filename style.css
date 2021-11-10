@@ -278,7 +278,7 @@ div.right {
   background: url("resources/live-tracking.jpeg");
   width: 40vw;
   height: 40vh;
-  border: 5px solid #687339;
+  border: 5px;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 1%;
@@ -306,7 +306,7 @@ div.right {
   background: url("resources/statistics.jpeg");
   width: 40vw;
   height: 40vh;
-  border: 5px solid #687339;
+  border: 5px;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 1%;
@@ -336,7 +336,7 @@ div.right {
   background-size: auto;
   width: 40vw;
   height: 40vh;
-  border: 5px solid #687339;
+  border: 5px;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 1%;
