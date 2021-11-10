@@ -211,10 +211,10 @@ div.right {
 
 .from-left,
 .from-right {
-  transition: opacity 400ms ease-in, -webkit-transform 800ms ease-in;
-  transition: opacity 400ms ease-in, transform 800ms ease-in;
-  transition: opacity 400ms ease-in, transform 800ms ease-in,
-    -webkit-transform 800ms ease-in;
+  transition: opacity 400ms ease-in, -webkit-transform 600ms ease-in;
+  transition: opacity 400ms ease-in, transform 600ms ease-in;
+  transition: opacity 400ms ease-in, transform 600ms ease-in,
+    -webkit-transform 600ms ease-in;
   opacity: 0;
 }
 
