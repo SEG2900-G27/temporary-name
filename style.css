@@ -93,14 +93,12 @@ section {
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 1000;
+  font-size: 125%;
 }
 
 .paragraph-container {
   text-align: center;
-  /*background-color: #e7eec7;*/
-  border-color: black;
-  border: 1px solid;
+  background-color: rgb(250, 253, 237, 65%);
   border-radius: 5px;
   width: 80%;
   margin: auto;
@@ -431,6 +429,51 @@ div.stat {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax4 {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://tricycle.org/wp-content/uploads/2007/01/joy-of-generosity-1.jpg");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.parallax5 {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://media.bizj.us/view/img/10273770/howtovounteer*1200xx3865-2178-0-177.jpg");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.parallax6 {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/89/5d/53a583a54470aa62ae77269dd715/produce-wall-660x495-2x._TTW_._CR0,0,1320,990_._SR900,675_._QL100_.jpg");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
 }
 
 .container-learn {
