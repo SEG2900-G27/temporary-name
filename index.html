@@ -47,7 +47,7 @@
           <h1 class="title-text">What is Second Chance Servings?</h1>
           <div class="container" style="display: block;">
               <div class="section-box from-right slide-in" id="our-service1">
-                  <img src="resources/truck.jpg" alt="Transport Truck" style="max-height: 30vh; padding-right: 5%;" />
+                  <img src="resources/truck.jpg" alt="Transport Truck" style="max-height: 20vh; padding-right: 5%;" />
                   <p class="right-text">
                       Our product consists of a service to reduce food waste from restaurants and other food markets.
                       This service involves drivers to pick up food and supplies that are still ready to eat for those in need.
@@ -56,7 +56,7 @@
                   </p>
               </div>
               <div class="section-box from-left slide-in" id="our-service2">
-                  <img src="resources/rideau.jpg" style="max-height: 30vh; padding-right: 3%;"
+                  <img src="resources/rideau.jpg" style="max-height: 20vh; padding-right: 3%;"
                        alt="Picture of the Rideau canal" id="our-service-img2" />
                   <p>
                       We will offer volunteering as well as full and part time employement opportunities.
@@ -75,7 +75,7 @@
               <img src="resources/fork-and-knife-Alexander-Vilinskyy.jpeg" alt="fork and knife" class="our-vision-image" />
               <div class="right">
                   <ul class="steps-list">
-                      <li class="steps-list-item">
+                      <li class="steps-list-item hvr-bounce-in">
                           <img src="resources/icons/foodbox-icon.png" />
                           <h3>Step 1:</h3>
                           <p>
@@ -84,7 +84,7 @@
                           </p>
                       </li>
 
-                      <li class="steps-list-item">
+                      <li class="steps-list-item hvr-bounce-in">
                           <img src="resources/icons/truck-icon.png" />
                           <h3>Step 2:</h3>
                           <p>
@@ -94,7 +94,7 @@
                           </p>
                       </li>
 
-                      <li class="steps-list-item">
+                      <li class="steps-list-item hvr-bounce-in">
                           <img src="resources/icons/reuse-icon.png" />
                           <h3>Step 3:</h3>
                           <p>
@@ -107,7 +107,7 @@
           </div>
           <h2 class="title-text" style="padding-top: 5%;">Product Features</h2>
           <div class="container" id="features">
-              <div class="features-box-live">
+              <div class="features-box-live hvr-grow-shadow">
                   <!--https://unsplash.com/photos/dvrh7Hpuyp4-->
                   <h3>Live Tracking</h3>
                   <p>
@@ -115,7 +115,7 @@
                       trucks and locations.
                   </p>
               </div>
-              <div class="features-box-stats">
+              <div class="features-box-stats hvr-grow-shadow">
                   <!--https://unsplash.com/photos/hpjSkU2UYSU-->
                   <h3>Personal Statistics</h3>
                   <p>
@@ -123,13 +123,13 @@
                       saved, number of pick-ups, and more.
                   </p>
               </div>
-              <div class="features-box-incentives">
+              <div class="features-box-incentives hvr-grow-shadow">
                   <!--https://unsplash.com/photos/4u2FS6dm0EM-->
                   <h3>Incentives</h3>
                   <p>
                       Based on the amount of food saved and delivered by the participating companies,
                       they will be able to reach incentives. These incentives will benefit the company
-                      personally, such as discounts on pick-ups, shoutouts, advertisements, and more.
+                      personally, such as shoutouts, advertisements, and more.
                   </p>
               </div>
           </div>
@@ -183,8 +183,7 @@
                       <div class="contentbox" id="greencontentbox">
                           <h3>Andrew Pham<br /><span>Web Developer</span></h3>
                           <p>
-                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                              repellendus necessitatibus inventore iusto fuga.
+                              Food waste is an issue that is largely ignored. Our goal at SCS is to change that!
                           </p>
                           <a href="https://www.linkedin.com/in/andrew-pham-856553221/" target="_">View linkedin profile</a>
                       </div>
@@ -335,109 +334,123 @@
 
     <!--Section for Our Request/Donations (Nicholas Beaulieu)-->
     <section id="our-request">
-      <div class="subtitle-text">
-        <h1 style="margin-top:0%;">Donate</h1>
-      </div>
-      <div class="paragraph-container">
-        <p>
-          Donations of any size are very much appreciated.
-          All donation money is used to fund our loved staff,
-          and to open new restaurant locations.
-        </p>
-      </div>
-      <div class="container">
-        <button class="donate-button" onclick="openDonation()">
-          <div class="text">
-            Donate Here
-          </div>
-        </button>
-      </div>
-      <div class="text">
-        <p id="donation-progress">
-          Progress until our next goal: 10685$ / 100000$
-        </p>
-      </div>
-      <div class="container">
-        <progress id="donation-progress-bar" max="100000" value="10685">
-        </progress>
-      </div>
-      <div class="text">
-        <p id="donation-message">
-        </p>
-      </div>
-      <div class="form-popup" id="donationForm">
-        <form class="form-container">
-          <h1>
-            Thank you for donating
-          </h1>
-          <label>
-            <b>
-              Your full name
-            </b>
-          </label>
-          <input id="user-name" type="text" placeholder="Ex: Casey Li">
-          <label>
-            <b>
-              How much would you like to donate?
-            </b>
-          </label>
-          <input id="donation-amount" type="text" placeholder="0.00">
-          <button type="button" class="btn" onclick="submitDonation()">
-            Donate
-          </button>
-          <button type="button" class="btn cancel" onclick="closeDonation()">
-            Close
-          </button>
-        </form>
-      </div>
-      <div class="subtitle-text">
-        <h1>Volunteer</h1>
-      </div>
-      <div class="paragraph-container">
-        <p>
-          Volunteers will be expected to some of the following:<br />
-          delivering ressources to our locations,
-          helping to prepare meals in the restaurants,
-          advertising and promoting our company,
-          serving our customers...
-        </p>
-      </div>
-      <p>
-        To become a volunteer you may contact us here:<br />
-        Email: Volunteering@SecondCServings.com<br />
-        Phone: (555) 555-5555<br />
-        Or in person at any of our locations
-      </p>
-      <div class="subtitle-text">
-        <h1>Become a sponsor</h1>
-      </div>
-      <div class="paragraph-container" style="margin-bottom: 5%">
-        <p>
-          Our sponsors may support us by:<br />
-          providing us with cooking ingredients and/or food of any kind,
-          funding our projects...
-        </p>
-      </div>
-      <p>
-        To become a sponsor for our company you may contact us here:<br />
-        Email: Sponsorship@SecondCServings.com<br />
-        Phone: (555) 555-5555
-      </p>
+        <div class="subtitle-text">
+            <h1 style="margin:0%;">Donate</h1>
+        </div>
+        <div class="parallax4">
+        <!--https://tricycle.org/wp-content/uploads/2007/01/joy-of-generosity-1.jpg-->
+            <div class="paragraph-container" style="margin-top:0%">
+                <p>
+                    Donations of any size are very much appreciated.
+                    All donation money is used to fund our loved staff,
+                    and to open new restaurant locations.
+                </p>
+            </div>
+            <div class="container">
+                <button class="donate-button" onclick="openDonation()">
+                    <div class="text">
+                        Donate Here
+                    </div>
+                </button>
+            </div>
+            <div class="text">
+                <p id="donation-progress">
+                    Progress until our next goal: 10685$ / 100000$
+                </p>
+            </div>
+            <div class="container" style="margin-top:0%;">
+                <progress id="donation-progress-bar" max="100000" value="10685"></progress>
+            </div>
+            <div class="text">
+                <p id="donation-message" style="margin:0%;"></p>
+            </div>
+        </div>
+      
+        <div class="form-popup" id="donationForm">
+            <form class="form-container">
+                <h1>
+                    Thank you for donating
+                </h1>
+                <label>
+                    <b>
+                        Your full name
+                    </b>
+                </label>
+                <input id="user-name" type="text" placeholder="Ex: Casey Li">
+                <label>
+                    <b>
+                        How much would you like to donate?
+                    </b>
+                </label>
+                <input id="donation-amount" type="text" placeholder="0.00">
+                <button type="button" class="btn" onclick="submitDonation()">
+                    Donate
+                </button>
+                <button type="button" class="btn cancel" onclick="closeDonation()">
+                    Close
+                </button>
+            </form>
+        </div>
+
+        <div class="subtitle-text">
+            <h1 style="margin:0%;">
+                Volunteer
+            </h1>
+        </div>
+
+        <div class="parallax5">
+        <!--https://media.bizj.us/view/img/10273770/howtovounteer*1200xx3865-2178-0-177.jpg-->
+            <div class="paragraph-container" style="margin-top:0%;">
+                <p>
+                    Volunteers will be expected to some of the following:<br />
+                    delivering ressources to our locations,
+                    helping to prepare meals in the restaurants,
+                    and serving our customers...
+                </p>
+            </div>
+            <div class="paragraph-container">
+                <p>
+                    If you are interested in becoming a volunteer, you may contact us here:
+                </p>
+                <p style="text-align:left;">
+                    Email: Volunteering@SecondCServings.com<br />
+                    Phone: (555) 555-5555<br />
+                    Or in person at any of our locations
+                </p>
+            </div>
+        </div>
+        
+        <div class="subtitle-text">
+            <h1 style="margin:0%;">
+                Become a sponsor
+            </h1>
+        </div>
+
+        <div class="parallax6">
+        <!--https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/89/5d/53a583a54470aa62ae77269dd715/produce-wall-660x495-2x._TTW_._CR0,0,1320,990_._SR900,675_._QL100_.jpg-->
+            <div class="paragraph-container" style="margin-top:0%;">
+                <p>
+                    Our sponsors may support us by:<br />
+                    funding out projects or donating unused ingredients
+                </p>
+            </div>
+            <div class="paragraph-container">
+                <p>
+                    To become a sponsor for our company you may contact us here:
+                </p>
+                <p style="text-align:left;">
+                    Email: Sponsorship@SecondCServings.com<br />
+                    Phone: (555) 555-5555
+                </p>
+            </div>
+        </div>
     </section>
 
       <!--Section for Live Updates (Mostafa Yassine)-->
       <section id="pricing-socials">
-          <div class="subtitle-text">
-              <h1 style="margin-top:0%;">Pricing</h1>
-          </div>
-          <div class="container">
-              <div class="page-box">
-                  <p class="text">Pricing for our service: 35$</p>
-              </div>
-          </div>
 
           <div class="subtitle-text">
-              <h1>Live Twitter Feed</h1>
+              <h1 style="margin-top:0%;">Live Twitter Feed</h1>
           </div>
           <div class="container">
               <div class="twitter-box">

@@ -93,14 +93,12 @@ section {
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 1000;
+  font-size: 125%;
 }
 
 .paragraph-container {
   text-align: center;
-  /*background-color: #e7eec7;*/
-  border-color: black;
-  border: 1px solid;
+  background-color: rgb(250, 253, 237, 65%);
   border-radius: 5px;
   width: 80%;
   margin: auto;
@@ -216,10 +214,10 @@ div.right {
 
 .from-left,
 .from-right {
-  transition: opacity 400ms ease-in, -webkit-transform 800ms ease-in;
-  transition: opacity 400ms ease-in, transform 800ms ease-in;
-  transition: opacity 400ms ease-in, transform 800ms ease-in,
-    -webkit-transform 800ms ease-in;
+  transition: opacity 400ms ease-in, -webkit-transform 600ms ease-in;
+  transition: opacity 400ms ease-in, transform 600ms ease-in;
+  transition: opacity 400ms ease-in, transform 600ms ease-in,
+    -webkit-transform 600ms ease-in;
   opacity: 0;
 }
 
@@ -234,6 +232,45 @@ div.right {
   align-items: center;
 }
 
+/* Our Vision/Product Features section */
+
+/* Hover Effects */
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* CSS styling/formatting for section: */
+
 .steps-list {
   list-style-type: none;
   width: 50vw;
@@ -244,7 +281,7 @@ div.right {
   margin: 20px;
   overflow: auto;
   background: rgb(255, 255, 255);
-  border: 2px solid #687339;
+  border: 1px solid rgb(65, 65, 65);
   border-radius: 10px;
 }
 
@@ -276,9 +313,11 @@ div.right {
 
 .features-box-live {
   background: url("resources/live-tracking.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 40vw;
   height: 40vh;
-  border: 5px solid #687339;
+  border: 5px;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 1%;
@@ -292,10 +331,13 @@ div.right {
 .features-box-live:hover{
   background: linear-gradient(
       0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
+      rgba(207, 212, 181, 0.8),
+      rgb(236, 243, 203)
     ),
     url("resources/live-tracking.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .features-box-live:hover p{
@@ -304,9 +346,11 @@ div.right {
 
 .features-box-stats {
   background: url("resources/statistics.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 40vw;
   height: 40vh;
-  border: 5px solid #687339;
+  border: 5px;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 1%;
@@ -320,10 +364,12 @@ div.right {
 .features-box-stats:hover {
   background: linear-gradient(
       0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
+      rgba(207, 212, 181, 0.8),
+      rgb(236, 243, 203)
     ),
     url("resources/statistics.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .features-box-stats:hover p{
@@ -332,11 +378,12 @@ div.right {
 
 .features-box-incentives {
   background: url("resources/incentive.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   width: 40vw;
   height: 40vh;
-  border: 5px solid #687339;
+  border: 5px;
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 1%;
@@ -350,10 +397,11 @@ div.right {
 .features-box-incentives:hover {
   background: linear-gradient(
       0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
+      rgba(207, 212, 181, 0.8),
+      rgb(236, 243, 203)
     ),
     url("resources/incentive.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -431,6 +479,51 @@ div.stat {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax4 {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://tricycle.org/wp-content/uploads/2007/01/joy-of-generosity-1.jpg");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.parallax5 {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://media.bizj.us/view/img/10273770/howtovounteer*1200xx3865-2178-0-177.jpg");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+.parallax6 {
+  background: linear-gradient(
+      0deg,
+      rgba(250, 253, 237, 0.5),
+      rgba(250, 253, 237, 0.7)
+    ),
+    url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/89/5d/53a583a54470aa62ae77269dd715/produce-wall-660x495-2x._TTW_._CR0,0,1320,990_._SR900,675_._QL100_.jpg");
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
 }
 
 .container-learn {
