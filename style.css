@@ -232,6 +232,29 @@ div.right {
   align-items: center;
 }
 
+/* Our Vision/Product Features section */
+
+/* Hover Effects */
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* CSS styling/formatting for section: */
+
 .steps-list {
   list-style-type: none;
   width: 50vw;
@@ -274,6 +297,8 @@ div.right {
 
 .features-box-live {
   background: url("resources/live-tracking.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 40vw;
   height: 40vh;
   border: 5px;
@@ -290,10 +315,13 @@ div.right {
 .features-box-live:hover{
   background: linear-gradient(
       0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
+      rgba(207, 212, 181, 0.8),
+      rgb(236, 243, 203)
     ),
     url("resources/live-tracking.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .features-box-live:hover p{
@@ -302,6 +330,8 @@ div.right {
 
 .features-box-stats {
   background: url("resources/statistics.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 40vw;
   height: 40vh;
   border: 5px;
@@ -318,10 +348,12 @@ div.right {
 .features-box-stats:hover {
   background: linear-gradient(
       0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
+      rgba(207, 212, 181, 0.8),
+      rgb(236, 243, 203)
     ),
     url("resources/statistics.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .features-box-stats:hover p{
@@ -330,8 +362,9 @@ div.right {
 
 .features-box-incentives {
   background: url("resources/incentive.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   width: 40vw;
   height: 40vh;
   border: 5px;
@@ -348,10 +381,11 @@ div.right {
 .features-box-incentives:hover {
   background: linear-gradient(
       0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
+      rgba(207, 212, 181, 0.8),
+      rgb(236, 243, 203)
     ),
     url("resources/incentive.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
