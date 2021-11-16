@@ -1,5 +1,5 @@
 /*Imported the Montserrat font used in the figma mockup*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
 
 html,
 body {
@@ -46,6 +46,7 @@ section {
   text-align: center;
   width: 20%;
   height: 100%;
+  font-weight: 500;
 }
 
 .navbar li a {
@@ -247,7 +248,9 @@ div.right {
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+.hvr-grow-shadow:hover,
+.hvr-grow-shadow:focus,
+.hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -262,7 +265,9 @@ div.right {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -305,10 +310,10 @@ div.right {
 
 #features h3 {
   background: linear-gradient(
-      0deg,
-      rgba(250, 253, 237, 0.8),
-      rgba(250, 253, 237, 1)
-    )
+    0deg,
+    rgba(250, 253, 237, 0.8),
+    rgba(250, 253, 237, 1)
+  );
 }
 
 .features-box-live {
@@ -324,11 +329,11 @@ div.right {
   padding: 2%;
 }
 
-.features-box-live p{
+.features-box-live p {
   display: none;
 }
 
-.features-box-live:hover{
+.features-box-live:hover {
   background: linear-gradient(
       0deg,
       rgba(207, 212, 181, 0.8),
@@ -340,7 +345,7 @@ div.right {
   background-size: cover;
 }
 
-.features-box-live:hover p{
+.features-box-live:hover p {
   display: block;
 }
 
@@ -357,7 +362,7 @@ div.right {
   padding: 2%;
 }
 
-.features-box-stats p{
+.features-box-stats p {
   display: none;
 }
 
@@ -372,7 +377,7 @@ div.right {
   background-size: cover;
 }
 
-.features-box-stats:hover p{
+.features-box-stats:hover p {
   display: block;
 }
 
@@ -390,7 +395,7 @@ div.right {
   padding: 2%;
 }
 
-.features-box-incentives p{
+.features-box-incentives p {
   display: none;
 }
 
@@ -406,7 +411,7 @@ div.right {
   background-size: cover;
 }
 
-.features-box-incentives:hover p{
+.features-box-incentives:hover p {
   display: block;
 }
 
@@ -562,6 +567,7 @@ div.stat {
   font-weight: 500;
 }
 .our-team-container {
+  padding-top: 3.2rem;
   position: relative;
   min-height: 100%;
   display: grid;
@@ -579,13 +585,15 @@ div.stat {
 .card {
   position: relative;
   transition: 0.5s;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.25) ;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.25);
   background: black;
   overflow: hidden;
+  border-radius: 9px;
 }
 
 .card:hover {
   transform: translateY(-20px);
+
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.05);
 }
 .our-team-container .card .img-box {
@@ -614,6 +622,7 @@ div.stat {
   margin: 0;
   transition: 0.5s;
 }
+
 .our-team-container .card:hover .img-box {
   opacity: 0.5;
 }
@@ -643,12 +652,11 @@ div.stat {
   font-size: 14px;
 }
 .contentbox a:hover,
-.contentbox a:active{
+.contentbox a:active {
   color: #ffec99;
-  
 }
 #greencontentbox a:hover,
-#greencontentbox a:active{
+#greencontentbox a:active {
   color: #20c997;
 }
 
