@@ -74,13 +74,27 @@ section {
   color: black;
 }
 
-.title-text {
+.main-title {
   text-align: center;
+  font-size: xx-large;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 1000;
   color: #3b3f20;
-  padding-top: 10%;
+  padding-top: 5%;
+}
+
+.title-text {
+  text-align: center;
+  font-size: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 1000;
+  color: #3b3f20;
+  padding-top: 5%;
+  text-decoration: underline;
+  text-decoration-color: #687339;
+  text-underline-offset: 0.5em;
 }
 #title-our-vision {
   margin-top: 50px;
