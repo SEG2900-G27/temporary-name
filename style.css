@@ -120,13 +120,11 @@ section {
 }
 
 .page-box {
-  background: #e7eec7;
-  width: 30%;
-  border: 5px solid #687339;
+  background: rgb(231, 238, 199, 0.8);
   border-radius: 10px;
   box-shadow: 7px 7px 15px 0px #00000040;
   margin: 0% 5% 5% 5%;
-  padding: 5%;
+  padding: 2%;
 }
 
 .page-box > p {
