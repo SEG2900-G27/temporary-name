@@ -76,7 +76,7 @@ section {
 
 .main-title {
   text-align: center;
-  font-size: xx-large;
+  font-size: 60px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 1000;
@@ -506,7 +506,7 @@ div.stat {
       rgba(250, 253, 237, 0.5),
       rgba(250, 253, 237, 0.7)
     ),
-    url("https://tricycle.org/wp-content/uploads/2007/01/joy-of-generosity-1.jpg");
+    url("https://images.pexels.com/photos/6994926/pexels-photo-6994926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   min-height: 150px;
   background-attachment: fixed;
   background-position: center;
@@ -536,7 +536,7 @@ div.stat {
       rgba(250, 253, 237, 0.5),
       rgba(250, 253, 237, 0.7)
     ),
-    url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/89/5d/53a583a54470aa62ae77269dd715/produce-wall-660x495-2x._TTW_._CR0,0,1320,990_._SR900,675_._QL100_.jpg");
+    url("https://images.pexels.com/photos/6590920/pexels-photo-6590920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   min-height: 150px;
   background-attachment: fixed;
   background-position: center;
@@ -591,7 +591,7 @@ div.stat {
   /* justify-items: center;
   align-items: center; */
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows: 100px 354px 368px 0px;
+  grid-template-rows: 100px 354px 368px 100px;
 
   column-gap: 30px;
   row-gap: 60px;
