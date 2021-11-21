@@ -282,6 +282,7 @@ div.right {
 }
 
 .steps-list-item {
+  width: inherit;
   padding: 20px;
   margin: 20px;
   overflow: auto;
