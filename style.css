@@ -576,7 +576,7 @@ div.stat {
   /* justify-items: center;
   align-items: center; */
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows: 100px 354px 368px 100px;
+  grid-template-rows: 100px 354px 368px 0px;
 
   column-gap: 30px;
   row-gap: 60px;
