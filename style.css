@@ -469,6 +469,7 @@ div.stat {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 85%, transparent 100%)
 }
 
 .parallax3 {
